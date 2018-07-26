@@ -1,0 +1,10 @@
+<!-- templates/home.html -->
+{% extends 'base.html' %} {% block title %}GPA SYSTEM{% endblock %} {% block content %}
+<h4>
+    Already having an account? Then login
+</h4>
+<a href="{% url 'login' %}">Login</a>
+<h4>
+    New to this system? Feel free to create an account
+</h4>
+<a href="{% url 'signup' %}">Signup</a> {% endblock %}

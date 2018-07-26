@@ -1,0 +1,231 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0001_initial.py	../GPA_System/migrations/0001_initial.py	1;"	kind:file	line:1
+0002_auto_20180725_1738.py	../GPA_System/migrations/0002_auto_20180725_1738.py	1;"	kind:file	line:1
+0003_user_csu_position.py	../GPA_System/migrations/0003_user_csu_position.py	1;"	kind:file	line:1
+0004_auto_20180725_1755.py	../GPA_System/migrations/0004_auto_20180725_1755.py	1;"	kind:file	line:1
+ADMINS	../CSU/settings/common.py	/^ADMINS = ($/;"	kind:variable	line:95
+ALLOWED_HOSTS	../CSU/settings/development.py	/^ALLOWED_HOSTS = ['*']$/;"	kind:variable	line:15
+ALLOWED_HOSTS	../CSU/settings/production.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:8
+AUTH_USER_MODEL	../CSU/settings/common.py	/^AUTH_USER_MODEL = 'GPA_System.User'$/;"	kind:variable	line:87
+CCL	../GPA_System/models.py	/^	CCL ='CCL'$/;"	kind:variable	line:70
+CL	../GPA_System/models.py	/^	CL= 'CL'$/;"	kind:variable	line:71
+CSU_Class	../GPA_System/models.py	/^	CSU_Class = models.CharField($/;"	kind:variable	line:63
+CSU_Class_Choices	../GPA_System/models.py	/^	CSU_Class_Choices = ($/;"	kind:variable	line:58
+CSU_ID	../GPA_System/forms.py	/^    CSU_ID = forms.IntegerField(label='CSU ID',validators=[MaxValueValidator(1999999999),MinValueValidator(1000000000)])$/;"	kind:variable	line:14
+CSU_ID	../GPA_System/models.py	/^	CSU_ID = models.IntegerField(unique=True,null=True,validators=[MaxValueValidator(1999999999),MinValueValidator(1000000000)])$/;"	kind:variable	line:53
+CSU_Ministry	../GPA_System/models.py	/^	CSU_Ministry= models.CharField($/;"	kind:variable	line:117
+CSU_Ministry_Choices	../GPA_System/models.py	/^	CSU_Ministry_Choices = ($/;"	kind:variable	line:101
+CSU_Position	../GPA_System/models.py	/^	CSU_Position = models.CharField($/;"	kind:variable	line:79
+CSU_Position_Choices	../GPA_System/models.py	/^	CSU_Position_Choices = ($/;"	kind:variable	line:73
+Cell_Component_Leader_Name	../GPA_System/models.py	/^	Cell_Component_Leader_Name = models.CharField(max_length=30, null=True)$/;"	kind:variable	line:122
+Cell_Leader_Name	../GPA_System/models.py	/^	Cell_Leader_Name = models.CharField(max_length=30, null=True)$/;"	kind:variable	line:123
+DATABASES	../CSU/settings/development.py	/^DATABASES = {$/;"	kind:variable	line:23
+DC	../GPA_System/models.py	/^	DC = 'DC'$/;"	kind:variable	line:57
+DEBUG	../CSU/settings/common.py	/^DEBUG = False$/;"	kind:variable	line:117
+DEBUG	../CSU/settings/development.py	/^DEBUG = True$/;"	kind:variable	line:12
+DEBUG	../CSU/settings/production.py	/^DEBUG = False$/;"	kind:variable	line:5
+DEFAULT_APPS	../CSU/settings/common.py	/^DEFAULT_APPS = [$/;"	kind:variable	line:41
+DJANGO_ROOT	../CSU/settings/common.py	/^DJANGO_ROOT = dirname(dirname(abspath(__file__)))$/;"	kind:variable	line:9
+First_Name	../GPA_System/models.py	/^	First_Name = models.CharField(max_length=20,null=True,unique=True)$/;"	kind:variable	line:50
+GHSM	../GPA_System/models.py	/^	GHSM ='GHSM'$/;"	kind:variable	line:55
+GpaSystemConfig	../GPA_System/apps.py	/^class GpaSystemConfig(AppConfig):$/;"	kind:class	line:4
+HomeConfig	../Home/apps.py	/^class HomeConfig(AppConfig):$/;"	kind:class	line:4
+INSTALLED_APPS	../CSU/settings/development.py	/^INSTALLED_APPS = DEFAULT_APPS$/;"	kind:variable	line:32
+LANGUAGES	../CSU/settings/i18n.py	/^LANGUAGES = ($/;"	kind:variable	line:25
+LANGUAGE_CODE	../CSU/settings/i18n.py	/^LANGUAGE_CODE = 'de'$/;"	kind:variable	line:12
+LOCALE_PATHS	../CSU/settings/i18n.py	/^LOCALE_PATHS = ($/;"	kind:variable	line:31
+LOGIN_REDIRECT_URL	../CSU/settings/development.py	/^LOGIN_REDIRECT_URL = 'profile'$/;"	kind:variable	line:18
+LOGOUT_REDIRECT_URL	../CSU/settings/development.py	/^LOGOUT_REDIRECT_URL = '\/'$/;"	kind:variable	line:19
+Last_Name	../GPA_System/models.py	/^	Last_Name = models.CharField(max_length=20,null=True,unique=True)$/;"	kind:variable	line:51
+MANAGERS	../CSU/settings/common.py	/^MANAGERS = ADMINS$/;"	kind:variable	line:98
+MASA	../GPA_System/models.py	/^	MASA = 'MASA'$/;"	kind:variable	line:89
+MCAA	../GPA_System/models.py	/^	MCAA = 'MCAA'$/;"	kind:variable	line:87
+ME	../GPA_System/models.py	/^	ME = 'ME'$/;"	kind:variable	line:91
+MEA	../GPA_System/models.py	/^	MEA = 'MEA'$/;"	kind:variable	line:97
+MEDIA_ROOT	../CSU/settings/common.py	/^MEDIA_ROOT = join(PROJECT_ROOT, 'run', 'media')$/;"	kind:variable	line:21
+MEDIA_URL	../CSU/settings/common.py	/^MEDIA_URL = '\/media\/'$/;"	kind:variable	line:113
+MI	../GPA_System/models.py	/^	MI = 'MI'$/;"	kind:variable	line:92
+MIAW	../GPA_System/models.py	/^	MIAW = 'MIAW'$/;"	kind:variable	line:93
+MIDDLEWARE	../CSU/settings/common.py	/^MIDDLEWARE = [$/;"	kind:variable	line:54
+MIDDLEWARE	../CSU/settings/i18n.py	/^MIDDLEWARE = [y for i, x in enumerate(MIDDLEWARE) for y in ($/;"	kind:variable	line:36
+MOE	../GPA_System/models.py	/^	MOE = 'MOE'$/;"	kind:variable	line:98
+MOH	../GPA_System/models.py	/^	MOH ='MOH'$/;"	kind:variable	line:95
+MOM	../GPA_System/models.py	/^	MOM = 'MOM'$/;"	kind:variable	line:94
+MOPAM	../GPA_System/models.py	/^	MOPAM = 'MOPAM'$/;"	kind:variable	line:99
+MOSAF	../GPA_System/models.py	/^	MOSAF = 'MOSAF'$/;"	kind:variable	line:88
+MOTA	../GPA_System/models.py	/^	MOTA = 'MOTA'$/;"	kind:variable	line:96
+MSO	../GPA_System/models.py	/^	MSO='MSO'$/;"	kind:variable	line:90
+Meta	../GPA_System/forms.py	/^    class Meta:$/;"	kind:class	line:42
+Meta	../GPA_System/forms.py	/^    class Meta:$/;"	kind:class	line:68
+Meta	../GPA_System/forms.py	/^    class Meta:$/;"	kind:class	line:89
+Middle_Name	../GPA_System/models.py	/^	Middle_Name = models.CharField(max_length=20,null=True,unique=True,)$/;"	kind:variable	line:52
+Migration	../GPA_System/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:7
+Migration	../GPA_System/migrations/0002_auto_20180725_1738.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../GPA_System/migrations/0003_user_csu_position.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+Migration	../GPA_System/migrations/0004_auto_20180725_1755.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:6
+PROJECT_ROOT	../CSU/settings/common.py	/^PROJECT_ROOT = dirname(DJANGO_ROOT)$/;"	kind:variable	line:12
+PROJECT_TEMPLATES	../CSU/settings/common.py	/^PROJECT_TEMPLATES = [$/;"	kind:variable	line:30
+REQUIRED_FIELDS	../GPA_System/models.py	/^	REQUIRED_FIELDS = []$/;"	kind:variable	line:131
+ROOT_URLCONF	../CSU/settings/common.py	/^ROOT_URLCONF = '%s.urls' % SITE_NAME$/;"	kind:variable	line:107
+SECRET_FILE	../CSU/settings/common.py	/^SECRET_FILE = normpath(join(PROJECT_ROOT, 'run', 'SECRET.key'))$/;"	kind:variable	line:92
+SECRET_KEY	../CSU/settings/common.py	/^        SECRET_KEY = get_random_string(50, chars)$/;"	kind:variable	line:127
+SECRET_KEY	../CSU/settings/common.py	/^    SECRET_KEY = open(SECRET_FILE).read().strip()$/;"	kind:variable	line:122
+SITE_NAME	../CSU/settings/common.py	/^SITE_NAME = basename(DJANGO_ROOT)$/;"	kind:variable	line:15
+STATICFILES_DIRS	../CSU/settings/common.py	/^STATICFILES_DIRS = [$/;"	kind:variable	line:24
+STATIC_ROOT	../CSU/settings/common.py	/^STATIC_ROOT = join(PROJECT_ROOT, 'run', 'static')$/;"	kind:variable	line:18
+STATIC_URL	../CSU/settings/common.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:110
+TE	../GPA_System/models.py	/^	TE = 'TE'$/;"	kind:variable	line:56
+TEMPLATES	../CSU/settings/common.py	/^TEMPLATES = [$/;"	kind:variable	line:65
+TIME_ZONE	../CSU/settings/i18n.py	/^TIME_ZONE = 'Europe\/Berlin'$/;"	kind:variable	line:13
+TL	../GPA_System/models.py	/^	TL = 'TL'$/;"	kind:variable	line:72
+Tissue_Leader_Name	../GPA_System/models.py	/^	Tissue_Leader_Name = models.CharField(max_length=30, null=True)$/;"	kind:variable	line:124
+USERNAME_FIELD	../GPA_System/models.py	/^	USERNAME_FIELD = 'email'$/;"	kind:variable	line:130
+USE_I18N	../CSU/settings/common.py	/^USE_I18N = False$/;"	kind:variable	line:85
+USE_I18N	../CSU/settings/i18n.py	/^USE_I18N = True$/;"	kind:variable	line:16
+USE_L10N	../CSU/settings/i18n.py	/^USE_L10N = True$/;"	kind:variable	line:19
+USE_TZ	../CSU/settings/i18n.py	/^USE_TZ = True$/;"	kind:variable	line:22
+User	../GPA_System/admin.py	/^User = get_user_model()$/;"	kind:variable	line:5
+User	../GPA_System/forms.py	/^User =  get_user_model()$/;"	kind:variable	line:12
+User	../GPA_System/models.py	/^class User(AbstractBaseUser):$/;"	kind:class	line:49
+User	../GPA_System/views.py	/^User =  get_user_model()$/;"	kind:variable	line:8
+UserAdmin	../GPA_System/admin.py	/^class UserAdmin(BaseUserAdmin):$/;"	kind:class	line:6
+UserAdminChangeForm	../GPA_System/forms.py	/^class UserAdminChangeForm(forms.ModelForm):$/;"	kind:class	line:62
+UserAdminCreationForm	../GPA_System/forms.py	/^class UserAdminCreationForm(forms.ModelForm):$/;"	kind:class	line:37
+UserLoginForm	../GPA_System/forms.py	/^class UserLoginForm(forms.Form):$/;"	kind:class	line:13
+UserManager	../GPA_System/models.py	/^class UserManager(BaseUserManager):$/;"	kind:class	line:6
+UserRegisterForm	../GPA_System/forms.py	/^class UserRegisterForm(forms.ModelForm):$/;"	kind:class	line:78
+WSGI_APPLICATION	../CSU/settings/common.py	/^WSGI_APPLICATION = '%s.wsgi.application' % SITE_NAME$/;"	kind:variable	line:104
+__init__.py	../CSU/__init__.py	1;"	kind:file	line:1
+__init__.py	../CSU/settings/__init__.py	1;"	kind:file	line:1
+__init__.py	../GPA_System/__init__.py	1;"	kind:file	line:1
+__init__.py	../GPA_System/migrations/__init__.py	1;"	kind:file	line:1
+__init__.py	../Home/__init__.py	1;"	kind:file	line:1
+__init__.py	../Home/migrations/__init__.py	1;"	kind:file	line:1
+__str__	../GPA_System/models.py	/^	def __str__(self):              # __unicode__ on Python 2$/;"	kind:member	line:138
+active	../GPA_System/models.py	/^	active = models.BooleanField(default=True)$/;"	kind:variable	line:126
+add_fieldsets	../GPA_System/admin.py	/^    add_fieldsets =($/;"	kind:variable	line:19
+add_form	../GPA_System/admin.py	/^    add_form = UserAdminCreationForm$/;"	kind:variable	line:8
+admin	../GPA_System/models.py	/^	admin = models.BooleanField(default=False) # a superuser$/;"	kind:variable	line:128
+admin.py	../GPA_System/admin.py	1;"	kind:file	line:1
+admin.py	../Home/admin.py	1;"	kind:file	line:1
+application	../CSU/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:14
+apps.py	../GPA_System/apps.py	1;"	kind:file	line:1
+apps.py	../Home/apps.py	1;"	kind:file	line:1
+chars	../CSU/settings/common.py	/^        chars = 'abcdefghijklmnopqrstuvwxyz0123456789!$%&()=+-_'$/;"	kind:variable	line:126
+choices	../GPA_System/models.py	/^		choices = CSU_Class_Choices,$/;"	kind:variable	line:65
+choices	../GPA_System/models.py	/^		choices=CSU_Ministry_Choices,$/;"	kind:variable	line:119
+choices	../GPA_System/models.py	/^		choices=CSU_Position_Choices,$/;"	kind:variable	line:81
+clean	../GPA_System/forms.py	/^    def clean(self,*args,**kwargs):$/;"	kind:member	line:17
+clean_password	../GPA_System/forms.py	/^    def clean_password(self):$/;"	kind:member	line:72
+clean_password2	../GPA_System/forms.py	/^    def clean_password2(self):$/;"	kind:member	line:45
+clean_password2	../GPA_System/forms.py	/^    def clean_password2(self):$/;"	kind:member	line:82
+common.py	../CSU/settings/common.py	1;"	kind:file	line:1
+create_staffuser	../GPA_System/models.py	/^    def create_staffuser(self, email, password):$/;"	kind:member	line:22
+create_superuser	../GPA_System/models.py	/^    def create_superuser(self, email,password):$/;"	kind:member	line:34
+create_user	../GPA_System/models.py	/^    def create_user(self,email,password=None):$/;"	kind:member	line:7
+default	../GPA_System/models.py	/^		default = GHSM$/;"	kind:variable	line:66
+default	../GPA_System/models.py	/^		default=none$/;"	kind:variable	line:120
+default	../GPA_System/models.py	/^		default=none$/;"	kind:variable	line:82
+dependencies	../GPA_System/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:11
+dependencies	../GPA_System/migrations/0002_auto_20180725_1738.py	/^    dependencies = [$/;"	kind:variable	line:8
+dependencies	../GPA_System/migrations/0003_user_csu_position.py	/^    dependencies = [$/;"	kind:variable	line:8
+dependencies	../GPA_System/migrations/0004_auto_20180725_1755.py	/^    dependencies = [$/;"	kind:variable	line:8
+development.py	../CSU/settings/development.py	1;"	kind:file	line:1
+email	../GPA_System/forms.py	/^    email=forms.EmailField()$/;"	kind:variable	line:15
+email	../GPA_System/models.py	/^	email = models.EmailField(verbose_name='email address',max_length=255,unique=True)$/;"	kind:variable	line:54
+exclude	../GPA_System/forms.py	/^        exclude = ['CSU_ID','password','last_login','active','staff','admin']/;"	kind:variable	line:91
+exclude	../GPA_System/forms.py	/^        exclude = ['CSU_ID']$/;"	kind:variable	line:44
+exclude	../GPA_System/forms.py	/^        exclude = ['CSU_ID']$/;"	kind:variable	line:70
+field	../GPA_System/migrations/0003_user_csu_position.py	/^            field=models.CharField(choices=[('None', 'None'), ('CCL', 'Cell Component Leader'), ('CL', 'Cell Leader'), ('TL', 'Tissue Leader')], default='None', max_length=4),$/;"	kind:variable	line:16
+field	../GPA_System/migrations/0004_auto_20180725_1755.py	/^            field=models.CharField(max_length=30, null=True),$/;"	kind:variable	line:16
+field	../GPA_System/migrations/0004_auto_20180725_1755.py	/^            field=models.CharField(max_length=30, null=True),$/;"	kind:variable	line:21
+field	../GPA_System/migrations/0004_auto_20180725_1755.py	/^            field=models.CharField(max_length=30, null=True),$/;"	kind:variable	line:26
+fields	../GPA_System/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:17
+fieldsets	../GPA_System/admin.py	/^    fieldsets =($/;"	kind:variable	line:12
+filter_horizontal	../GPA_System/admin.py	/^    filter_horizontal =()$/;"	kind:variable	line:28
+form	../GPA_System/admin.py	/^    form =UserAdminChangeForm$/;"	kind:variable	line:7
+forms.py	../GPA_System/forms.py	1;"	kind:file	line:1
+get_full_name	../GPA_System/models.py	/^	def get_full_name(self):$/;"	kind:member	line:132
+get_short_name	../GPA_System/models.py	/^	def get_short_name(self): $/;"	kind:member	line:135
+has_module_perms	../GPA_System/models.py	/^	def has_module_perms(self, app_label):$/;"	kind:member	line:144
+has_perm	../GPA_System/models.py	/^	def has_perm(self, perm, obj=None):$/;"	kind:member	line:140
+home	../Home/views.py	/^def home(request):$/;"	kind:function	line:6
+home_view	../GPA_System/views.py	/^def home_view(request):$/;"	kind:function	line:11
+i18n.py	../CSU/settings/i18n.py	1;"	kind:file	line:1
+id	../GPA_System/idgenerator.py	/^def id():$/;"	kind:function	line:3
+idgenerator.py	../GPA_System/idgenerator.py	1;"	kind:file	line:1
+initial	../GPA_System/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:9
+is_active	../GPA_System/models.py	/^	def is_active(self):$/;"	kind:member	line:157
+is_admin	../GPA_System/models.py	/^	def is_admin(self):$/;"	kind:member	line:153
+is_staff	../GPA_System/models.py	/^	def is_staff(self):$/;"	kind:member	line:149
+list_display	../GPA_System/admin.py	/^    list_display = ('email','First_Name','Last_Name','CSU_ID','CSU_Class','CSU_Position','CSU_Ministry','admin',)$/;"	kind:variable	line:10
+list_filter	../GPA_System/admin.py	/^    list_filter = ('admin','staff','active')$/;"	kind:variable	line:11
+login_view	../GPA_System/views.py	/^def login_view(request):$/;"	kind:function	line:13
+logout_view	../GPA_System/views.py	/^def logout_view(request):$/;"	kind:function	line:41
+manage.py	../manage.py	1;"	kind:file	line:1
+max_length	../GPA_System/models.py	/^		max_length=4,$/;"	kind:variable	line:64
+max_length	../GPA_System/models.py	/^		max_length=4,$/;"	kind:variable	line:80
+max_length	../GPA_System/models.py	/^		max_length=5,$/;"	kind:variable	line:118
+model	../GPA_System/forms.py	/^        model = User$/;"	kind:variable	line:43
+model	../GPA_System/forms.py	/^        model = User$/;"	kind:variable	line:69
+model	../GPA_System/forms.py	/^        model=User$/;"	kind:variable	line:90
+model_name	../GPA_System/migrations/0002_auto_20180725_1738.py	/^            model_name='user',$/;"	kind:variable	line:14
+model_name	../GPA_System/migrations/0002_auto_20180725_1738.py	/^            model_name='user',$/;"	kind:variable	line:18
+model_name	../GPA_System/migrations/0002_auto_20180725_1738.py	/^            model_name='user',$/;"	kind:variable	line:22
+model_name	../GPA_System/migrations/0002_auto_20180725_1738.py	/^            model_name='user',$/;"	kind:variable	line:26
+model_name	../GPA_System/migrations/0003_user_csu_position.py	/^            model_name='user',$/;"	kind:variable	line:14
+model_name	../GPA_System/migrations/0004_auto_20180725_1755.py	/^            model_name='user',$/;"	kind:variable	line:14
+model_name	../GPA_System/migrations/0004_auto_20180725_1755.py	/^            model_name='user',$/;"	kind:variable	line:19
+model_name	../GPA_System/migrations/0004_auto_20180725_1755.py	/^            model_name='user',$/;"	kind:variable	line:24
+models.py	../GPA_System/models.py	1;"	kind:file	line:1
+models.py	../Home/models.py	1;"	kind:file	line:1
+name	../GPA_System/apps.py	/^    name = 'GPA_System'$/;"	kind:variable	line:5
+name	../GPA_System/migrations/0001_initial.py	/^            name='User',$/;"	kind:variable	line:16
+name	../GPA_System/migrations/0002_auto_20180725_1738.py	/^            name='CSU_Position',$/;"	kind:variable	line:15
+name	../GPA_System/migrations/0002_auto_20180725_1738.py	/^            name='Cell_Component_Leader_Name',$/;"	kind:variable	line:19
+name	../GPA_System/migrations/0002_auto_20180725_1738.py	/^            name='Cell_Leader_Name',$/;"	kind:variable	line:23
+name	../GPA_System/migrations/0002_auto_20180725_1738.py	/^            name='Tissue_Leader_Name',$/;"	kind:variable	line:27
+name	../GPA_System/migrations/0003_user_csu_position.py	/^            name='CSU_Position',$/;"	kind:variable	line:15
+name	../GPA_System/migrations/0004_auto_20180725_1755.py	/^            name='Cell_Component_Leader_Name',$/;"	kind:variable	line:15
+name	../GPA_System/migrations/0004_auto_20180725_1755.py	/^            name='Cell_Leader_Name',$/;"	kind:variable	line:20
+name	../GPA_System/migrations/0004_auto_20180725_1755.py	/^            name='Tissue_Leader_Name',$/;"	kind:variable	line:25
+name	../Home/apps.py	/^    name = 'Home'$/;"	kind:variable	line:5
+none	../GPA_System/models.py	/^	none = 'None'$/;"	kind:variable	line:86
+none	../GPA_System/models.py	/^	none ='None'$/;"	kind:variable	line:69
+objects	../GPA_System/models.py	/^	objects = UserManager()/;"	kind:variable	line:161
+operations	../GPA_System/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:14
+operations	../GPA_System/migrations/0002_auto_20180725_1738.py	/^    operations = [$/;"	kind:variable	line:12
+operations	../GPA_System/migrations/0003_user_csu_position.py	/^    operations = [$/;"	kind:variable	line:12
+operations	../GPA_System/migrations/0004_auto_20180725_1755.py	/^    operations = [$/;"	kind:variable	line:12
+options	../GPA_System/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:36
+ordering	../GPA_System/admin.py	/^    ordering = ('First_Name',)$/;"	kind:variable	line:27
+password	../GPA_System/forms.py	/^    password = ReadOnlyPasswordHashField()$/;"	kind:variable	line:67
+password	../GPA_System/forms.py	/^    password = forms.CharField(label='Password', widget=forms.PasswordInput)$/;"	kind:variable	line:79
+password	../GPA_System/forms.py	/^    password = forms.CharField(widget=forms.PasswordInput)$/;"	kind:variable	line:16
+password	../GPA_System/models.py	/^			password=password,$/;"	kind:variable	line:28
+password	../GPA_System/models.py	/^			password=password,$/;"	kind:variable	line:40
+password1	../GPA_System/forms.py	/^    password1 = forms.CharField(label='Password', widget=forms.PasswordInput)$/;"	kind:variable	line:40
+password2	../GPA_System/forms.py	/^    password2 = forms.CharField(label='Confirm Password  ', widget=forms.PasswordInput)$/;"	kind:variable	line:80
+password2	../GPA_System/forms.py	/^    password2 = forms.CharField(label='Password Confirmation', widget=forms.PasswordInput)$/;"	kind:variable	line:41
+production.py	../CSU/settings/production.py	1;"	kind:file	line:1
+profile_view	../GPA_System/views.py	/^def profile_view(request, id):$/;"	kind:function	line:45
+random_string_generator	../GPA_System/idgenerator.py	/^def random_string_generator(size=20, chars=string.ascii_lowercase + string.digits):$/;"	kind:function	line:9
+save	../GPA_System/forms.py	/^    def save(self, commit=True):$/;"	kind:member	line:53
+search_fields	../GPA_System/admin.py	/^    search_fields=('email','First_Name','Last_Name','CSU_ID')$/;"	kind:variable	line:26
+signup_view	../GPA_System/views.py	/^def signup_view(request):$/;"	kind:function	line:27
+staff	../GPA_System/models.py	/^	staff = models.BooleanField(default=False) # a admin user; non super-user$/;"	kind:variable	line:127
+tests.py	../GPA_System/tests.py	1;"	kind:file	line:1
+tests.py	../Home/tests.py	1;"	kind:file	line:1
+urlpatterns	../CSU/urls.py	/^urlpatterns=[$/;"	kind:variable	line:10
+urlpatterns	../GPA_System/urls.py	/^urlpatterns = [$/;"	kind:variable	line:5
+urls.py	../CSU/urls.py	1;"	kind:file	line:1
+urls.py	../GPA_System/urls.py	1;"	kind:file	line:1
+urls.py	../Home/urls.py	1;"	kind:file	line:1
+views.py	../GPA_System/views.py	1;"	kind:file	line:1
+views.py	../Home/views.py	1;"	kind:file	line:1
+wsgi.py	../CSU/wsgi.py	1;"	kind:file	line:1
