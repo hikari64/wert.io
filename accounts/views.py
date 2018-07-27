@@ -9,8 +9,7 @@ from django.contrib.auth import (
 User =  get_user_model()
 from .forms import UserLoginForm, UserRegisterForm
 from .idgenerator import id, random_string_generator
-def home_view(request):
-	return render_to_response('gpasystem/home.html')
+from gpasystem.models import IndividualGrading
 def login_view(request):
 	title = 'Login'
 	form = UserLoginForm(request.POST or None)
@@ -23,7 +22,7 @@ def login_view(request):
 		print(request.user.is_authenticated)
 		url = reverse('profile', kwargs={'id': idg })
 		return HttpResponseRedirect(url)
-	return render(request, "gpasystem/form.html", {"form":form,"title":title})
+	return render(request, "accounts/form.html", {"form":form,"title":title})
 def signup_view(request):
 	title = 'Sign Up'
 	form  = UserRegisterForm(request.POST or None)
@@ -36,11 +35,14 @@ def signup_view(request):
 		new_user = authenticate(email=user.email,password=password)
 		login(request,new_user)
 		return redirect('/gpasystem/')
-	return render(request, "gpasystem/form.html", {"form":form,"title":title})
+	return render(request, "accounts/form.html", {"form":form,"title":title})
 def logout_view(request):
 	logout(request)
 	return redirect('/')
-def profile_view(request, id):
-	user = User.objects.get(First_Name=request.user.First_Name)
-	CSU = User.objects.get(CSU_ID=request.user.CSU_ID)
-	return render(request,'gpasystem/user.html',{'user':user},{'CSU':CSU})
+
+def profile_view(request, id):	
+	queryset = IndividualGrading.objects.filter()
+	context = {
+		"individual_grading": queryset,
+	}
+	return render(request,'accounts/user.html',context)

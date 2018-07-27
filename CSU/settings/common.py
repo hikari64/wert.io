@@ -45,8 +45,10 @@ DEFAULT_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'GPA_System.apps.GpaSystemConfig',
-    'Home.apps.HomeConfig',
+    'gpasystem',
+	'accounts',
+	'csu'
+
 
 ]
 
@@ -84,10 +86,8 @@ TEMPLATES = [
 # Internationalization
 USE_I18N = False
 
-AUTH_USER_MODEL = 'GPA_System.User'
-# ##### SECURITY CONFIGURATION ############################
-EMAIL_BACKEND = "django.core.mail.backends.filebased.EmailBackend"
-EMAIL_FILE_PATH = join(PROJECT_ROOT, "Sent_Emails")
+AUTH_USER_MODEL = 'accounts.User'
+
 # We store the secret key here
 # The required SECRET_KEY is fetched at the end of this file
 SECRET_FILE = normpath(join(PROJECT_ROOT, 'run', 'SECRET.key'))
